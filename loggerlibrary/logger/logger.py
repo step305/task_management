@@ -67,6 +67,7 @@ class Logger(threading.Thread):
                 ))
                 if len(buffer) == BUF_LEN_TEXT:
                     self.file_id.write('\n'.join(buffer) + '\n')
+                    self.file_id.flush()
                     buffer = []
             else:
                 for i, v in enumerate(self.logger_type.value):
