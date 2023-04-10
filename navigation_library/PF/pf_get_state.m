@@ -1,4 +1,5 @@
 function x = pf_get_state(fltr, type)
+% Оценка вектора состояния фильтра частциц
 
 switch type
     case 1 % состояние частицы с наибольшим весом

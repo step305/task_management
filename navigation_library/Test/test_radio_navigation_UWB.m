@@ -1,8 +1,10 @@
 function [Rn_est, Euler_est, Rn_err, Euler_err] = test_radio_navigation_UWB(Rn_ref, Euler_ref, dTheta_ref, Vb_ref, dt)
-%  [Rn_, Vb_, Euler_, Rn_err, Vb_err, Euler_err] = test_navigation_UWB(Rn_ref, Vb_ref, Euler_ref, dThe_ref, dt)
 %  Моделирует функционирование алгоритма системы навигации колесного робота
 %  на базе локальной радионавигационной системы UWB с использованием
 %  фильтра частиц (Particle Filter)
+%
+% [dThe_ref, dUps_ref, Rn_ref, Vb_ref, Euler_ref, Lat_ref, Lon_ref, dThet_ref, sample_rate] = reference_trajectory(600);
+% [Rn_est, Euler_est, Rn_err, Euler_err] = test_radio_navigation_UWB(Rn_ref, Euler_ref, dThet_ref, Vb_ref, sample_rate);
 %
 %   Входные аргументы:
 %   Rn_ref - Опорные значения координат в навигационной СК

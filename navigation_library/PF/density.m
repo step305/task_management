@@ -1,4 +1,5 @@
 function d = density(gDistr, x)
+% Плотность вероятности гауссовкой случайной величины 
 
 [nrow, ncol] = size(x);
 

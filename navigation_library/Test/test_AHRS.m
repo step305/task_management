@@ -1,6 +1,8 @@
 function [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, dt)
-%  [Euler_, bw_] = test_ahrs_dcm(dWb, Fb, Mb, q_ref, q_init, dt)
 %  Моделирует функционирование алгоритма курсовертикали
+%
+% [dWb, q_ref, dt, q_init, Fb, Mb, fn, mn, bw] = reference_orientation;
+% [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, dt);
 %
 %   Входные аргументы:
 %   dWb -  Измерения датчиков угловой скорости 

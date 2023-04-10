@@ -1,4 +1,5 @@
 function fltr = pf_resample(fltr, threshold)
+% Ресэмплинг частиц
 
 Nmin = fltr.N * threshold;
 sum_w = sum(fltr.w);
