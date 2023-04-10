@@ -1,7 +1,6 @@
 function angle = pi2pi(angle)
 
 n = length(angle);
-%angle = mod(angle, 2*pi);
 
 for i=1:n
     if (angle(i)<-2*pi) || (angle(i)>2*pi)

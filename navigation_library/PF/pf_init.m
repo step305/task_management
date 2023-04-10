@@ -1,8 +1,15 @@
-function fltr_ = pf_init(initPos, initAng)
-
+function fltr = pf_init(initPos, initAng)
+% Инициализация фильтра частиц
+%
+%   Входные аргументы:
+%   initPos - начальные коррдинаты робота в навигационной СК
+%   initAng - начальный угол курса робота в навигационной СК
+%
+%   Выходные аргументы:
+%   fltr - структура фильтра частиц
 
 %%
-% Количество частиц фильтра
+% Количество частиц в фильтре
 nParticle = 1000;
 
 % Шумы системы
@@ -26,23 +33,23 @@ nmeas = 4;
 
 % Шумы системы
 covW = diag([wPos, wPos, wAng]);
-fltr_.w_d.mean = zeros(nstate,1);
-fltr_.w_d.n = nstate;
-fltr_.w_d.cov = covW;
-fltr_.w_d.const = 1 / sqrt((2 * pi)^nstate * det(covW));
-fltr_.w_d.invCov = inv(covW);
+fltr.w_d.mean = zeros(nstate,1);
+fltr.w_d.n = nstate;
+fltr.w_d.cov = covW;
+fltr.w_d.const = 1 / sqrt((2 * pi)^nstate * det(covW));
+fltr.w_d.invCov = inv(covW);
 [U, T] = schur(covW);
-fltr_.w_d.UsqrtT = U * (T .^ 0.5);
+fltr.w_d.UsqrtT = U * (T .^ 0.5);
 
 % Шумы измерений
 covV = diag([wRnz wRnz wRnz wRnz]);
-fltr_.v_d.mean = zeros(nmeas,1);
-fltr_.v_d.n = nmeas;
-fltr_.v_d.cov = covV;
-fltr_.v_d.const = 1 / sqrt((2 * pi)^nmeas * det(covV));
-fltr_.v_d.invCov = inv(covV);
+fltr.v_d.mean = zeros(nmeas,1);
+fltr.v_d.n = nmeas;
+fltr.v_d.cov = covV;
+fltr.v_d.const = 1 / sqrt((2 * pi)^nmeas * det(covV));
+fltr.v_d.invCov = inv(covV);
 [U, T] = schur(covV);
-fltr_.v_d.UsqrtT = U * (T .^ 0.5);
+fltr.v_d.UsqrtT = U * (T .^ 0.5);
 
 % Начальное состояние
 initMean = [initPos; initAng;];
@@ -56,11 +63,11 @@ initDistr.invCov = inv(initCov);
 initDistr.UsqrtT = U * (T .^ 0.5);
 
 % Выборка частиц начального состояния
-fltr_.N = nParticle;
-fltr_.p = drawSamples(initDistr, nParticle);
-fltr_.w = ones(1, nParticle) / nParticle;   
-fltr_.invQ = inv(covW);
-fltr_.invR = inv(covV);
-fltr_.Q = diag([wUps, wdThe]);
+fltr.N = nParticle;
+fltr.p = drawSamples(initDistr, nParticle);
+fltr.w = ones(1, nParticle) / nParticle;   
+fltr.invQ = inv(covW);
+fltr.invR = inv(covV);
+fltr.Q = diag([wUps, wdThe]);
 
 end

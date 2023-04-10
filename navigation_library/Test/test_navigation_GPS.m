@@ -1,8 +1,10 @@
 function [Rn_, Vb_, Euler_, Rn_err, Vb_err, Euler_err] = test_navigation_GPS(Rn_ref, Vb_ref, Euler_ref, dThe_ref, dt)
-%  [Rn_, Vb_, Euler_, Rn_err, Vb_err, Euler_err] = test_navigation_GPS(Rn_ref, Vb_ref, Euler_ref, dThe_ref, dt)
 %  Моделирует функционирование алгоритма системы навигации колесного робота
 %  с коррекцией от GPS - измерения GPS предварительно спроецированны в
 %  локальную горизонтальную систему координат
+%
+% [dThe_ref, dUps_ref, Rn_ref, Vb_ref, Euler_ref, Lat_ref, Lon_ref, dThet_ref, sample_rate] = reference_trajectory(600);
+% [Rn_, Vb_, Euler_, Rn_err, Vb_err, Euler_err] = test_navigation_GPS(Rn_ref, Vb_ref, Euler_ref, dThe_ref, sample_rate);
 %
 %   Входные аргументы:
 %   Rn_ref - Опорные значения координат в навигационной СК
