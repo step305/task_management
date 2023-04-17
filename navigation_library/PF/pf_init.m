@@ -1,9 +1,11 @@
-function fltr = pf_init(initPos, initAng)
+function fltr = pf_init(initPos, initAng, nstate, nmeas)
 % Инициализация фильтра частиц
 %
 %   Входные аргументы:
 %   initPos - начальные коррдинаты робота в навигационной СК
 %   initAng - начальный угол курса робота в навигационной СК
+%   nstate - размерность вектора состояния фильтра
+%   nmeas - размерность вектора измерений фильтра
 %
 %   Выходные аргументы:
 %   fltr - структура фильтра частиц
@@ -27,10 +29,6 @@ wAngi = 1e0;
 wUps = 1e-1;
 wdThe = 1e-2;
 
-% Размерности
-nstate = 3;
-nmeas = 4;
-
 % Шумы системы
 covW = diag([wPos, wPos, wAng]);
 fltr.w_d.mean = zeros(nstate,1);
@@ -42,7 +40,7 @@ fltr.w_d.invCov = inv(covW);
 fltr.w_d.UsqrtT = U * (T .^ 0.5);
 
 % Шумы измерений
-covV = diag([wRnz wRnz wRnz wRnz]);
+covV = eye(nmeas) * wRnz;
 fltr.v_d.mean = zeros(nmeas,1);
 fltr.v_d.n = nmeas;
 fltr.v_d.cov = covV;
