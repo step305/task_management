@@ -1,0 +1,1059 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.29)  17 APR 2023 13:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**threewheel_article.tex
+(./threewheel_article.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen147
+\l@unhyphenated=\language87
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 78.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2021/06/21 v1.2n UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen150
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks20
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks21
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks24
+\float@box=\box52
+\@float@everytoks=\toks25
+\@floatcapt=\box53
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box54
+)
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(./threewheel_article.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+\openout1 = `threewheel_article.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \th on input line 16.
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count278
+\scratchdimen=\dimen159
+\scratchbox=\box55
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen160
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks27
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package epstopdf Info: Source file: <./Fig//ahrs_angle.eps>
+(epstopdf)                    date: 2023-04-16 01:50:01
+(epstopdf)                    size: 327526 bytes
+(epstopdf)             Output file: <./Fig//ahrs_angle-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-16 02:01:39
+(epstopdf)                    size: 114321 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//ahrs_angle-eps-conv
+erted-to.pdf ./Fig//ahrs_angle.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//ahrs_angle-eps-converted-to.pdf, id=22, 562.1pt x 421.575pt>
+File: ./Fig//ahrs_angle-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//ahrs_angle-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//ahrs_angle-eps-converted-to.pdf  used on input 
+line 140.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//ahrs_angle_errors.eps>
+(epstopdf)                    date: 2023-04-16 01:48:58
+(epstopdf)                    size: 196908 bytes
+(epstopdf)             Output file: <./Fig//ahrs_angle_errors-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2023-04-16 02:01:39
+(epstopdf)                    size: 75170 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//ahrs_angle_errors-e
+ps-converted-to.pdf ./Fig//ahrs_angle_errors.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//ahrs_angle_errors-eps-converted-to.pdf, id=23, 562.1pt x 421.575pt>
+File: ./Fig//ahrs_angle_errors-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//ahrs_angle_errors-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//ahrs_angle_errors-eps-converted-to.pdf  used on
+ input line 148.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//ahrs_bias.eps>
+(epstopdf)                    date: 2023-04-16 01:47:43
+(epstopdf)                    size: 399496 bytes
+(epstopdf)             Output file: <./Fig//ahrs_bias-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-16 02:01:40
+(epstopdf)                    size: 123900 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//ahrs_bias-eps-conve
+rted-to.pdf ./Fig//ahrs_bias.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//ahrs_bias-eps-converted-to.pdf, id=24, 562.1pt x 421.575pt>
+File: ./Fig//ahrs_bias-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//ahrs_bias-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//ahrs_bias-eps-converted-to.pdf  used on input l
+ine 156.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [3] [4 <./Fig//ahrs_angle-eps-converted-to.pdf> <./Fig//ahrs_angle_errors-eps-
+converted-to.pdf>] [5 <./Fig//ahrs_bias-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Fig//axes_uwb.eps>
+(epstopdf)                    date: 2023-02-06 01:11:33
+(epstopdf)                    size: 51941 bytes
+(epstopdf)             Output file: <./Fig//axes_uwb-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:26
+(epstopdf)                    size: 31243 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//axes_uwb-eps-conver
+ted-to.pdf ./Fig//axes_uwb.eps>
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//axes_uwb-eps-converted-to.pdf, id=50, 455.7025pt x 316.18124pt>
+File: ./Fig//axes_uwb-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//axes_uwb-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//axes_uwb-eps-converted-to.pdf  used on input li
+ne 182.
+(pdftex.def)             Requested size: 341.43306pt x 236.90376pt.
+ [6
+
+] [7 <./Fig//axes_uwb-eps-converted-to.pdf>] [8]
+Package epstopdf Info: Source file: <./Fig//trajectory.eps>
+(epstopdf)                    date: 2023-02-09 15:07:37
+(epstopdf)                    size: 79716 bytes
+(epstopdf)             Output file: <./Fig//trajectory-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:28
+(epstopdf)                    size: 77153 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//trajectory-eps-conv
+erted-to.pdf ./Fig//trajectory.eps>
+(epstopdf)             \includegraphics on input line 295.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//trajectory-eps-converted-to.pdf, id=64, 562.1pt x 421.575pt>
+File: ./Fig//trajectory-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//trajectory-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//trajectory-eps-converted-to.pdf  used on input 
+line 295.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//position.eps>
+(epstopdf)                    date: 2023-02-09 15:16:58
+(epstopdf)                    size: 375874 bytes
+(epstopdf)             Output file: <./Fig//position-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:29
+(epstopdf)                    size: 135061 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//position-eps-conver
+ted-to.pdf ./Fig//position.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//position-eps-converted-to.pdf, id=65, 562.1pt x 421.575pt>
+File: ./Fig//position-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//position-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//position-eps-converted-to.pdf  used on input li
+ne 305.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//velocity.eps>
+(epstopdf)                    date: 2023-02-09 15:16:37
+(epstopdf)                    size: 256435 bytes
+(epstopdf)             Output file: <./Fig//velocity-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:29
+(epstopdf)                    size: 94875 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//velocity-eps-conver
+ted-to.pdf ./Fig//velocity.eps>
+(epstopdf)             \includegraphics on input line 313.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//velocity-eps-converted-to.pdf, id=66, 562.1pt x 421.575pt>
+File: ./Fig//velocity-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//velocity-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//velocity-eps-converted-to.pdf  used on input li
+ne 313.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//heading.eps>
+(epstopdf)                    date: 2023-02-09 15:16:14
+(epstopdf)                    size: 224976 bytes
+(epstopdf)             Output file: <./Fig//heading-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:30
+(epstopdf)                    size: 85867 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//heading-eps-convert
+ed-to.pdf ./Fig//heading.eps>
+(epstopdf)             \includegraphics on input line 321.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//heading-eps-converted-to.pdf, id=67, 562.1pt x 421.575pt>
+File: ./Fig//heading-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//heading-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//heading-eps-converted-to.pdf  used on input lin
+e 321.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//errors_odo.eps>
+(epstopdf)                    date: 2023-02-09 15:05:35
+(epstopdf)                    size: 370083 bytes
+(epstopdf)             Output file: <./Fig//errors_odo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:31
+(epstopdf)                    size: 88324 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//errors_odo-eps-conv
+erted-to.pdf ./Fig//errors_odo.eps>
+(epstopdf)             \includegraphics on input line 329.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//errors_odo-eps-converted-to.pdf, id=68, 562.1pt x 421.575pt>
+File: ./Fig//errors_odo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//errors_odo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//errors_odo-eps-converted-to.pdf  used on input 
+line 329.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//errors_gyro.eps>
+(epstopdf)                    date: 2023-02-09 15:10:30
+(epstopdf)                    size: 136373 bytes
+(epstopdf)             Output file: <./Fig//errors_gyro-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:32
+(epstopdf)                    size: 34020 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//errors_gyro-eps-con
+verted-to.pdf ./Fig//errors_gyro.eps>
+(epstopdf)             \includegraphics on input line 337.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//errors_gyro-eps-converted-to.pdf, id=69, 562.1pt x 421.575pt>
+File: ./Fig//errors_gyro-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//errors_gyro-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//errors_gyro-eps-converted-to.pdf  used on input
+ line 337.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//errors_lever.eps>
+(epstopdf)                    date: 2023-02-09 15:04:23
+(epstopdf)                    size: 235303 bytes
+(epstopdf)             Output file: <./Fig//errors_lever-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-14 11:47:33
+(epstopdf)                    size: 45578 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//errors_lever-eps-co
+nverted-to.pdf ./Fig//errors_lever.eps>
+(epstopdf)             \includegraphics on input line 345.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//errors_lever-eps-converted-to.pdf, id=70, 562.1pt x 421.575pt>
+File: ./Fig//errors_lever-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//errors_lever-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//errors_lever-eps-converted-to.pdf  used on inpu
+t line 345.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [9 <./Fig//trajectory-eps-converted-to.pdf>] [10 <./Fig//position-eps-converte
+d-to.pdf> <./Fig//velocity-eps-converted-to.pdf>] [11 <./Fig//heading-eps-conve
+rted-to.pdf> <./Fig//errors_odo-eps-converted-to.pdf>]
+[12 <./Fig//errors_gyro-eps-converted-to.pdf> <./Fig//errors_lever-eps-converte
+d-to.pdf>]
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 364.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 364.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 367.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 367.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 370.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 370.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 370.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 374.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 374.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 374.
+
+Missing character: There is no с in font cmr7!
+Missing character: There is no н in font cmr7!
+Missing character: There is no с in font cmr7!
+Package epstopdf Info: Source file: <./Fig//gps_position.eps>
+(epstopdf)                    date: 2023-04-16 19:34:49
+(epstopdf)                    size: 414158 bytes
+(epstopdf)             Output file: <./Fig//gps_position-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-16 19:54:42
+(epstopdf)                    size: 147310 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//gps_position-eps-co
+nverted-to.pdf ./Fig//gps_position.eps>
+(epstopdf)             \includegraphics on input line 396.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//gps_position-eps-converted-to.pdf, id=118, 562.1pt x 421.575pt>
+File: ./Fig//gps_position-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//gps_position-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//gps_position-eps-converted-to.pdf  used on inpu
+t line 396.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//gps_velocity.eps>
+(epstopdf)                    date: 2023-04-16 19:34:24
+(epstopdf)                    size: 267288 bytes
+(epstopdf)             Output file: <./Fig//gps_velocity-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-16 19:54:43
+(epstopdf)                    size: 100111 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//gps_velocity-eps-co
+nverted-to.pdf ./Fig//gps_velocity.eps>
+(epstopdf)             \includegraphics on input line 404.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//gps_velocity-eps-converted-to.pdf, id=119, 562.1pt x 421.575pt>
+File: ./Fig//gps_velocity-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//gps_velocity-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//gps_velocity-eps-converted-to.pdf  used on inpu
+t line 404.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//gps_heading.eps>
+(epstopdf)                    date: 2023-04-16 19:33:23
+(epstopdf)                    size: 276664 bytes
+(epstopdf)             Output file: <./Fig//gps_heading-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-16 19:54:44
+(epstopdf)                    size: 101744 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//gps_heading-eps-con
+verted-to.pdf ./Fig//gps_heading.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//gps_heading-eps-converted-to.pdf, id=120, 562.1pt x 421.575pt>
+File: ./Fig//gps_heading-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//gps_heading-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//gps_heading-eps-converted-to.pdf  used on input
+ line 412.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//gps_odometer_bias.eps>
+(epstopdf)                    date: 2023-04-16 19:32:42
+(epstopdf)                    size: 412512 bytes
+(epstopdf)             Output file: <./Fig//gps_odometer_bias-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2023-04-16 19:54:45
+(epstopdf)                    size: 98386 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//gps_odometer_bias-e
+ps-converted-to.pdf ./Fig//gps_odometer_bias.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//gps_odometer_bias-eps-converted-to.pdf, id=121, 562.1pt x 421.575pt>
+File: ./Fig//gps_odometer_bias-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//gps_odometer_bias-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//gps_odometer_bias-eps-converted-to.pdf  used on
+ input line 420.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//gps_gyro_bias.eps>
+(epstopdf)                    date: 2023-04-16 19:31:54
+(epstopdf)                    size: 159636 bytes
+(epstopdf)             Output file: <./Fig//gps_gyro_bias-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-04-16 19:54:46
+(epstopdf)                    size: 38400 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//gps_gyro_bias-eps-c
+onverted-to.pdf ./Fig//gps_gyro_bias.eps>
+(epstopdf)             \includegraphics on input line 428.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//gps_gyro_bias-eps-converted-to.pdf, id=122, 562.1pt x 421.575pt>
+File: ./Fig//gps_gyro_bias-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//gps_gyro_bias-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//gps_gyro_bias-eps-converted-to.pdf  used on inp
+ut line 428.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+[13
+
+] [14 <./Fig//gps_position-eps-converted-to.pdf> <./Fig//gps_velocity-eps-conve
+rted-to.pdf>] [15 <./Fig//gps_heading-eps-converted-to.pdf> <./Fig//gps_odomete
+r_bias-eps-converted-to.pdf>] [16 <./Fig//gps_gyro_bias-eps-converted-to.pdf>]
+Overfull \hbox (2.3442pt too wide) in paragraph at lines 452--453
+[]\T2A/cmr/m/n/10 Определение но-во-го век-то-ра со-сто-я-ния для со-от-вет-ств
+у-ю-щей ча-сти-цы на ос-но-ве преды-
+ []
+
+
+Overfull \hbox (15.89565pt too wide) in paragraph at lines 452--453
+\T2A/cmr/m/n/10 сто-я-ния для ча-сти-цы опре-де-ля-ет-ся ис-хо-дя из ве-ро-ят-н
+ост-ной мо-де-ли си-сте-мы $\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ x[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 u[]; x[]\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/1
+0 ; 
+ []
+
+[17
+
+]
+Package epstopdf Info: Source file: <./Fig//uwb_particles.eps>
+(epstopdf)                    date: 2023-04-16 23:33:11
+(epstopdf)                    size: 60619 bytes
+(epstopdf)             Output file: <./Fig//uwb_particles-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2023-04-17 00:12:14
+(epstopdf)                    size: 58264 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//uwb_particles-eps-c
+onverted-to.pdf ./Fig//uwb_particles.eps>
+(epstopdf)             \includegraphics on input line 484.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//uwb_particles-eps-converted-to.pdf, id=164, 562.1pt x 421.575pt>
+File: ./Fig//uwb_particles-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//uwb_particles-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//uwb_particles-eps-converted-to.pdf  used on inp
+ut line 484.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//uwb_pf_position.eps>
+(epstopdf)                    date: 2023-04-16 23:51:15
+(epstopdf)                    size: 430392 bytes
+(epstopdf)             Output file: <./Fig//uwb_pf_position-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2023-04-17 00:12:15
+(epstopdf)                    size: 157132 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//uwb_pf_position-eps
+-converted-to.pdf ./Fig//uwb_pf_position.eps>
+(epstopdf)             \includegraphics on input line 492.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//uwb_pf_position-eps-converted-to.pdf, id=165, 562.1pt x 421.575pt>
+File: ./Fig//uwb_pf_position-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//uwb_pf_position-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//uwb_pf_position-eps-converted-to.pdf  used on i
+nput line 492.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+Package epstopdf Info: Source file: <./Fig//uwb_pf_heading.eps>
+(epstopdf)                    date: 2023-04-16 23:50:31
+(epstopdf)                    size: 271394 bytes
+(epstopdf)             Output file: <./Fig//uwb_pf_heading-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2023-04-17 00:12:15
+(epstopdf)                    size: 103351 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//uwb_pf_heading-eps-
+converted-to.pdf ./Fig//uwb_pf_heading.eps>
+(epstopdf)             \includegraphics on input line 500.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//uwb_pf_heading-eps-converted-to.pdf, id=166, 562.1pt x 421.575pt>
+File: ./Fig//uwb_pf_heading-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//uwb_pf_heading-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//uwb_pf_heading-eps-converted-to.pdf  used on in
+put line 500.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [18 <./Fig//uwb_particles-eps-converted-to.pdf>] [19 <./Fig//uwb_pf_position-e
+ps-converted-to.pdf> <./Fig//uwb_pf_heading-eps-converted-to.pdf>]
+Overfull \hbox (8.78629pt too wide) in paragraph at lines 508--508
+[]\T2A/cmr/bx/n/14.4 Библиотека ал-го-рит-мов об-на-ру-же-ния пре-пят-ствий - т
+ео-
+ []
+
+Package epstopdf Info: Source file: <./Fig//axes_tracker.eps>
+(epstopdf)                    date: 2023-04-17 01:45:08
+(epstopdf)                    size: 18574 bytes
+(epstopdf)             Output file: <./Fig//axes_tracker-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-04-17 01:47:10
+(epstopdf)                    size: 12119 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//axes_tracker-eps-co
+nverted-to.pdf ./Fig//axes_tracker.eps>
+(epstopdf)             \includegraphics on input line 518.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//axes_tracker-eps-converted-to.pdf, id=189, 435.6275pt x 234.8775pt>
+File: ./Fig//axes_tracker-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//axes_tracker-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//axes_tracker-eps-converted-to.pdf  used on inpu
+t line 518.
+(pdftex.def)             Requested size: 284.52756pt x 153.40685pt.
+[20
+
+ <./Fig//axes_tracker-eps-converted-to.pdf>] [21] [22] [23]
+<./Fig//tracker_setup.jpeg, id=203, 720.6925pt x 1110.1475pt>
+File: ./Fig//tracker_setup.jpeg Graphic file (type jpg)
+<use ./Fig//tracker_setup.jpeg>
+Package pdftex.def Info: ./Fig//tracker_setup.jpeg  used on input line 711.
+(pdftex.def)             Requested size: 170.71652pt x 262.96825pt.
+Package epstopdf Info: Source file: <./Fig//target_tracking.eps>
+(epstopdf)                    date: 2023-04-17 12:59:56
+(epstopdf)                    size: 794877 bytes
+(epstopdf)             Output file: <./Fig//target_tracking-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2023-04-17 13:01:44
+(epstopdf)                    size: 285906 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Fig//target_tracking-eps
+-converted-to.pdf ./Fig//target_tracking.eps>
+(epstopdf)             \includegraphics on input line 729.
+Package epstopdf Info: Output file is already uptodate.
+<./Fig//target_tracking-eps-converted-to.pdf, id=204, 562.1pt x 421.575pt>
+File: ./Fig//target_tracking-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Fig//target_tracking-eps-converted-to.pdf>
+Package pdftex.def Info: ./Fig//target_tracking-eps-converted-to.pdf  used on i
+nput line 729.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [24 <./Fig//tracker_setup.jpeg>]
+Overfull \hbox (7.48254pt too wide) in paragraph at lines 738--738
+[]\T2A/cmr/bx/n/12 Алгоритмы ори-ен-та-ции и на-ви-га-ции на ба-зе рас-ши-рен-н
+о-го филь-
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+744.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [25 <./Fig//target_tracking-eps-converted-to.pdf>] [26]
+Overfull \hbox (6.73463pt too wide) in paragraph at lines 803--803
+[]\T2A/cmr/bx/n/14.4 Библиотека ал-го-рит-мов опре-де-ле-ния пре-пят-ствий - пр
+о-
+ []
+
+[27] (./threewheel_article.aux) ) 
+Here is how much of TeX's memory you used:
+ 5551 strings out of 478268
+ 89382 string characters out of 5846347
+ 401916 words of memory out of 5000000
+ 23646 multiletter control sequences out of 15000+600000
+ 484669 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,62p,1437b,257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/
+dvips/cm-super/cm-super-t2a.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/d
+vips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super
+/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
+fbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfr
+m1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm172
+8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.
+pfb>
+Output written on threewheel_article.pdf (27 pages, 2348104 bytes).
+PDF statistics:
+ 296 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

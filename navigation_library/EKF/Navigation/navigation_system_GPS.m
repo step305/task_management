@@ -123,13 +123,16 @@ if (gps_update)
 
         % Матрица измерений
         H = zeros(4, 6);
+
         H(1:2, 1:2) = eye(2);
         dpsi = skew(Cbn * lb);
-        H(1:2, 3) = dpsi(1:2, 3);    
+        H(1:2, 3) = dpsi(1:2, 3);
+
         dpsi = skew(vel_gps_hat);
         H(3:4, 3) =  dpsi(1:2, 3);
         domega   = -Cbn * skew(lb);
         H(3:4, 6) = domega(1:2, 3);
+        
         H(3, 4)   = Cbn(1, 1) * fir / 2;
         H(3, 5)   = Cbn(1, 1) * fil / 2;
         H(4, 4)   = Cbn(2, 1) * fir / 2;

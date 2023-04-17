@@ -22,6 +22,7 @@ function [Rn_est, Euler_est, Rn_err, Euler_err] = test_radio_navigation_UWB(Rn_r
 
 %% Инициализация анимации
 %% 
+close all;
 animation_rate = 10;
 figure;
 ax = gca;
@@ -114,7 +115,9 @@ uwb_rate  = 100;
 %% Инициализация фильтра частиц
 initPos = Rn_ref(1, 1:2)' + [5; 5];
 initAng = Euler_ref(1, 1) + 0.1;
-fltr = pf_init(initPos, initAng);
+nstate = 3;
+nmeas = size(Anchors, 1);
+fltr = pf_init(initPos, initAng, nstate, nmeas);
 
 %% Логи 
 Nsim = size(Rn_ref, 1);
@@ -131,12 +134,12 @@ for t=1:Nsim
     upsilon = Vb_ref(t, 1);
 
     % Измерения UWB 
-    pos_uwb = Rn_ref(t,:)';
-    Ranges = [norm(pos_uwb-Anchors(1,:)');
-        norm(pos_uwb-Anchors(2,:)');
-        norm(pos_uwb-Anchors(3,:)');
-        norm(pos_uwb-Anchors(4,:)')];
-    Ranges = Ranges+randn(4, 1) * uwb_noise;
+    pos_uwb = Rn_ref(t, :)';
+    Ranges = [norm(pos_uwb - Anchors(1, :)');
+        norm(pos_uwb - Anchors(2, :)');
+        norm(pos_uwb - Anchors(3, :)');
+        norm(pos_uwb - Anchors(4, :)')];
+    Ranges = Ranges + randn(4, 1) * uwb_noise;
     if (mod(t, uwb_rate) == 0)
         uwb_update = true;
     else

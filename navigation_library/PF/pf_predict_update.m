@@ -79,8 +79,8 @@ end
     %% Матрица измерений
     function H = dh(x, Anchors)
         tag = [x(1:2, 1); 0.0];
-        H = zeros(4,3);
-        for i=1:4
+        H = zeros(size(Anchors, 1), 3);
+        for i=1:size(Anchors, 1)
             anchor = Anchors(i, :)';
             H(i, 1) = (tag(1) - anchor(1)) / norm(tag - anchor);
             H(i, 2) = (tag(2) - anchor(2)) / norm(tag - anchor);
@@ -90,8 +90,8 @@ end
     %% Вектор измерений
     function y = h(x, Anchors)
         tag = [x(1:2, 1); 0.0];
-        y = zeros(4, 1);
-        for i=1:4
+        y = zeros(size(Anchors, 1), 1);
+        for i=1:size(Anchors, 1)
             anchor = Anchors(i, :)';
             y(i, 1) = norm(tag - anchor);
         end

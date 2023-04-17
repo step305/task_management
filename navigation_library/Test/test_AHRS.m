@@ -1,17 +1,18 @@
-function [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, dt)
+function [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, bw_ref, dt)
 %  Моделирует функционирование алгоритма курсовертикали
 %
 % [dWb, q_ref, dt, q_init, Fb, Mb, fn, mn, bw] = reference_orientation;
-% [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, dt);
+% [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, bw_ref, dt);
 %
 %   Входные аргументы:
-%   dWb -  Измерения датчиков угловой скорости 
+%   dWb -  Измерения датчиков угловой скорости
 %   Fb  - Измерения акселерометра
 %   Mb  - Измерения магнитометра
 %   q_ref  - Опорный кватернион ориентации
 %   q_init - Начальное значение опорного кватерниона
-%   fn - Вектор ускорения свободного падения 
+%   fn - Вектор ускорения свободного падения
 %   mn - Вектор магнитного поля
+%   mn - Опорные значения сдвигов нолей датчиков угловой скорости
 %   dt - Шаг интегрирования
 %
 %   Выходные аргументы:
@@ -21,7 +22,7 @@ function [Euler_, bw_] = test_AHRS(dWb, Fb, Mb, q_ref, q_init, fn, mn, dt)
 %%
 close all; clc;
 
-%% 
+%%
 rng('shuffle');
 
 %% Анимация
@@ -82,7 +83,7 @@ ptch.FaceVertexCData = copper(6);
 ptch.FaceColor = 'flat';
 patch_handle = patch(ptch);
 
-%% 
+%%
 th = text(-7,1,'Time ');
 set(th,'FontSize',9,'Color','b','FontWeight','bold');
 
@@ -99,39 +100,38 @@ bw = [0; 0; 0];
 
 % Матрица ковариации
 P=zeros(6,6);
-P(1:3,1:3)=diag([1e-2, 1e-2, 1e-2]); 
-P(4:6,4:6)=diag([1e-6, 1e-6, 1e-6]); 
+P(1:3,1:3)=diag([1e-2, 1e-2, 1e-2]);
+P(4:6,4:6)=diag([1e-6, 1e-6, 1e-6]);
 
 %% Логи
-Nsim = size(dWb,1);  
+Nsim = size(dWb,1);
 Euler_ = zeros(Nsim,3);
+Euler_ref_ = zeros(Nsim,3);
 bw_ = zeros(Nsim,3);
 err_ = zeros(Nsim,3);
 
-%% Цикл моделирования 
+%% Цикл моделирования
 for i=1:Nsim
-    
-    
-    %% Показания датчиков 
+
+
+    %% Показания датчиков
     dwb = dWb(i,:)';
     fb  = Fb(i,:)';
     mb  = Mb(i,:)';
-    
+
     %% Алгоритм курсовертикали
     [Cbn, P, bw] = AHRS(Cbn, P, bw, dwb, fb, mb, fn, mn, dt);
-    
+
     %% Сбор логов
     bw_(i,:) = bw*dt;
     [Euler_(i,1), Euler_(i,2), Euler_(i,3)] = dcm_to_angle(Cbn');
-    
+
     % Ошибки углов ориентации
     Cbn_ref = quat_to_dcm(q_ref(i,:));
     Cerr = Cbn_ref*Cbn';
     [err_(i,1), err_(i,2), err_(i,3)] = dcm_to_angle(Cerr);
-    
+    [Euler_ref_(i,1), Euler_ref_(i,2), Euler_ref_(i,3)] = dcm_to_angle(Cbn_ref');
 
-
-    
     %% Анимация
     if i < 300
         animation_rate = 1;
@@ -140,7 +140,7 @@ for i=1:Nsim
     end
 
     if(mod(i,animation_rate) == 0)
-        
+
         %% Оси опорного трехгранника
         Cbnref = quat_to_dcm(q_ref(i,:))';
         a1_ = Cbnref'*at1;
@@ -156,8 +156,8 @@ for i=1:Nsim
         set(pat3,'Xdata',[s_(1) a3_(1)]);
         set(pat3,'Ydata',[s_(2) a3_(2)]);
         set(pat3,'Zdata',[s_(3) a3_(3)]);
-        
-        %% Оценка ориентации трехгранника 
+
+        %% Оценка ориентации трехгранника
         a1_ = Cbn*ai1;
         a2_ = Cbn*ai2;
         a3_ = Cbn*ai3;
@@ -171,40 +171,52 @@ for i=1:Nsim
         set(pai3,'Xdata',[s_(1) a3_(1)]);
         set(pai3,'Ydata',[s_(2) a3_(2)]);
         set(pai3,'Zdata',[s_(3) a3_(3)]);
-        
+
         %
         Vert_ = Vert;
         for j=1:size(Vert,1)
             Vert_(j,:) = (Vert(j,:)*Cbn');
         end
         set(patch_handle,'Vertices',Vert_);
-        
+
         set(th,'String',...
             sprintf('tm %2.1f\nps   % 7.5f\ntt     % 7.5f\ngm  % 7.5f',...
             i*dt,Euler_(i,1)*180/pi,Euler_(i,2)*180/pi,Euler_(i,3)*180/pi));
-        
+
         drawnow;
     end
 end
 
-%% 
+%%
 t = (1:Nsim)*dt;
 
-figure('Name','Ошибки углов ориентации');
+figure('Name','Оценки углов ориентации');
 hold on;
 grid on;
-plot(t,err_*180/pi);
-legend('\delta\psi','\delta\theta','\delta\gamma');
-ylabel('Angles errors, deg');
-xlabel('Time,sec');
+plot(t, Euler_ref_*180/pi, 'LineWidth', 2, 'LineStyle', '--');
+plot(t, Euler_*180/pi, 'LineWidth', 1);
+legend('\psi_{ref}', '\theta_{ref}', '\gamma_{ref}', '\psi', '\theta', '\gamma', 'fontsize', 16);
+ylabel('Углы ориентации, град', 'fontsize', 16);
+xlabel('Время, сек', 'fontsize', 16);
+
+
+figure('Name','Ошибки оценок углов ориентации');
+hold on;
+grid on;
+plot(t, err_*180/pi, 'LineWidth', 2);
+legend('\delta\psi','\delta\theta','\delta\gamma', 'fontsize', 16);
+ylabel('Ошибки, град', 'fontsize', 16);
+xlabel('Время, сек', 'fontsize', 16);
 
 figure('Name','Оценки сдвигов нулей ДУС');
 hold on;
 grid on;
-plot(t,bw_);
-legend('\delta\omega_x','\delta\omega_y','\delta\omega_z');
-ylabel('Gyro Bias, rad/sec');
-xlabel('Time,sec');
+plot(t, bw_ref, 'LineWidth', 2, 'LineStyle', '--');
+plot(t, bw_, 'LineWidth', 1);
+legend('\delta\omega_{ref_x}', '\delta\omega_{ref_y}', '\delta\omega_{ref_z}', ...
+    '\delta\omega_x', '\delta\omega_y', '\delta\omega_z', 'fontsize', 16);
+ylabel('Сдвиги нолей ДУС, рад/сек', 'fontsize', 16);
+xlabel('Время, сек', 'fontsize', 16);
 
 
 end
